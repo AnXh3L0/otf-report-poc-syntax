@@ -26,9 +26,9 @@ export function Hero() {
               This report covers the activities supported by Open Technology Fund (OTF), with a small number of exceptions for highly sensitive projects, from March 2022 through December 2022 with FY2021 funds
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="/report/our-mission">Get started</Button>
-                <Button href="https://github.com/uradotdesign" variant="secondary">
-                  View on GitHub
+                <Button href="https://www.opentech.fund/results/annual-reports/" target="_blank" rel="noopener noreferrer">All reports</Button>
+                <Button href="https://www.opentech.fund/" target="_blank" rel="noopener noreferrer" variant="secondary">
+                  OTF Website
                 </Button>
               </div>
             </div>
