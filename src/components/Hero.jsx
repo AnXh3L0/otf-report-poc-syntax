@@ -27,8 +27,8 @@ export function Hero() {
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="https://public.opentech.fund/documents/OTF_Annual_Report_FY_2021_20_Jul_23_2.pdf" target="_blank" rel="noopener noreferrer">Download PDF</Button>
-                <Button href="https://www.opentech.fund/" target="_blank" rel="noopener noreferrer" variant="secondary">
-                  OTF Website
+                <Button href="https://www.opentech.fund/results/annual-reports/" target="_blank" rel="noopener noreferrer" variant="secondary">
+                  All reports
                 </Button>
               </div>
             </div>
