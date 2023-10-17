@@ -13,11 +13,11 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
-// Use local version of Lexend so that we can use OpenType features
-const lexend = localFont({
-  src: '../fonts/lexend.woff2',
+// Use local version of Montserrat so that we can use OpenType features
+const montserrat = localFont({
+  src: '../fonts/montserrat.woff2',
   display: 'swap',
-  variable: '--font-lexend',
+  variable: '--font-montserrat',
 })
 
 export const metadata = {
@@ -26,14 +26,14 @@ export const metadata = {
     default: 'Open Tech Fund - Annual Report 2021',
   },
   description:
-    'Cache every single thing your app could ever do ahead of time, so your code never even has to run at all.',
+    'This report covers the activities supported by Open Technology Fund (OTF), with a small number of exceptions for highly sensitive projects, from March 2022 through December 2022 with FY2021 funds.',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={clsx('h-full antialiased', inter.variable, lexend.variable)}
+      className={clsx('h-full antialiased', inter.variable, montserrat.variable)}
       suppressHydrationWarning
     >
       <body className="flex min-h-full bg-white dark:bg-slate-900">

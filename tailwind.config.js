@@ -23,10 +23,10 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: 'var(--font-inter)',
-        display: ['var(--font-lexend)', { fontFeatureSettings: '"ss01"' }],
+        display: ['var(--font-montserrat)', { fontFeatureSettings: '"ss01"' }],
       },
       maxWidth: {
-        '8xl': '88rem',
+        '8xl': '90rem',
       },
     },
   },
