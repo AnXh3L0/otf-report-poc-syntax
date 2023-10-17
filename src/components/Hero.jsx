@@ -20,13 +20,13 @@ export function Hero() {
           <div className="relative z-10 md:text-center lg:text-left">
             <div className="relative">
               <p className="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
-                Open Technology Fund Annual Report
+                Open Technology Fund Annual Report 2021
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
               This report covers the activities supported by Open Technology Fund (OTF), with a small number of exceptions for highly sensitive projects, from March 2022 through December 2022 with FY2021 funds
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="https://www.opentech.fund/results/annual-reports/" target="_blank" rel="noopener noreferrer">All reports</Button>
+                <Button href="https://public.opentech.fund/documents/OTF_Annual_Report_FY_2021_20_Jul_23_2.pdf" target="_blank" rel="noopener noreferrer">Download PDF</Button>
                 <Button href="https://www.opentech.fund/" target="_blank" rel="noopener noreferrer" variant="secondary">
                   OTF Website
                 </Button>
