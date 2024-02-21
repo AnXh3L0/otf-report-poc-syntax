@@ -8,3 +8,15 @@
     display: none;
   }
 }
+
+h5:target {
+  padding: .5rem 1rem;
+}
+
+h5:target {
+  background-color: theme('colors.slate.100');
+}
+
+.dark h5:target {
+  background-color: theme('colors.slate.700');
+}
