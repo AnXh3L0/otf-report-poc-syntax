@@ -1,0 +1,21 @@
+---
+title: Providing Timely & Accurate Censorship Detection
+nextjs:
+  metadata:
+    title: Providing Timely & Accurate Censorship Detection
+    description: #
+---
+
+As censorship tactics continue to evolve, so too must circumvention techniques. In order to develop the most effective tools, investigating when, where, and how censorship is occurring is essential. Yet conducting large-scale internet censorship measurement is challenging—particularly if it is to be done quickly. In an effort to meet this challenge, OTF utilized FY 2022 funds to invest in novel censorship-measurement projects to more swiftly and reliably determine the scale of—and response to—digital authoritarianism around the world.
+
+Measuring wide-ranging internet censorship is difficult because it involves triggering censors through artificial requests and identifying abnormalities from corresponding responses. Due to the lack of “ground truth” on the expected responses from legitimate services, many efforts to conduct largescale censorship measurement typically require unscalable manual inspection. To address this, OTF funded **Disguiser**, a novel framework that enables end-to-end measurement for accurately and automatically detecting censorship activities and deployment. When deployed in the field, the framework’s granular measurements revealed that the country-level aggregation of censorship relied upon in existing studies is far from accurate. This enhanced understanding of the variety of techniques used within national boundaries will help developers craft more effective and variable circumvention solutions going forward.
+
+Information Controls Fellow Amir Gh’s project **Monitoring Censorship with Comprehensive Network-Level Error Logging** similarly helped to develop new tools and frameworks for measuring network disruptions and blocking through a comprehensive set of network-level error logging and reporting. The information generated from Gh’s research will help circumvention tools better adapt to evolving censorship tactics.
+
+OTF also invested in **GreatFire’s Applecensorship.com**, a transparency project that monitors Apple’s complicity in China’s censorship and surveillance of iOS users — often through the removal of apps from the App Store. The project compares the availability of App Store applications globally and monitors when Apple removes or blocks apps in China and other countries.
+
+The project has discovered nearly 10,000 apps available elsewhere in the world are unavailable in the China App Store, including Apple’s own News App, the Session App, and other OTF-supported apps. Session, one of the best secure messaging apps in the world, was removed from the App Store in China just before the Tiananmen Square Massacre commemoration in 2022. The critical tool is still unavailable today, denying people in China a vital resource for communication and organizing. By publicly documenting Apple’s App censorship, AppleCensorship.com sheds light on how Apple’s practices limit free expression, privacy, and human rights. 
+
+And while authoritarians increase their use of artificial intelligence (AI) for censorship, OTF is supporting projects that harness generative AI for censorship detection and circumvention. OTF recently invested in Geneva[^1](#1), a novel experimental algorithm that automates the discovery of censorship evasion strategies to expedite circumvention product-development timelines. The AI’s genetic algorithm trains against real world censors and automatically learns how to circumvent censorship without affecting traffic flow. Geneva has been successfully deployed against censors in China, India, Iran, Kazakhstan, and Turkmenistan. In 2023, a Geneva-assisted measurement tool examined Turkmenistan’s internet censorship—the largest measurement study to date—and discovered more than 100,000 blocked domains.2 It also uncovered five new censorship evasion strategies, demonstrating AI’s potential to be harnessed as a public good to counteract its information-control application.
+
+###### [1] [https://freedomhouse.org/sites/default/files/2023-10/Freedom-on-the-net-2023-DigitalBooklet.pdf](https://freedomhouse.org/sites/default/files/2023-10/Freedom-on-the-net-2023-DigitalBooklet.pdf)
