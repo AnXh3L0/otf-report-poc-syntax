@@ -6,6 +6,6 @@ nextjs:
     description: #
 ---
 
-During the period covered by FY2021 funding, OTF funded over 35 innovative projects to combat censorship and repressive surveillance. It supported eight fellows to engage in cutting-edge research and digital security interventions. It also funded five labs to improve the security, usability, resiliency, and interoperability of key internet freedom technologies and numerous rapid response interventions to address digital emergencies.
+OTF used FY 2022 funds to support over 40 innovative projects to circumvent censorship and enhance digital privacy and security, seven fellows engaged in cutting-edge research on information controls, and 19 rapid response interventions to address digital emergencies. In addition to direct financial support, OTF also offered services through various Labs to improve the security, usability, and accessibility of internet freedom tools — contributing to increased adoption and greater community trust.
 
-A full list of all supported projects is included at the end of this report. This section provides an overview of key project highlights.
+This section highlights key projects that exemplify OTF’s mission to advance internet freedom globally. A full list of projects supported by FY2022 funds is included at the end of this report.

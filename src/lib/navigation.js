@@ -6,7 +6,7 @@ export const navigation = [
     ],
   },
   {
-    title: 'About OTF',
+    title: 'About OTF & Its Mission',
     links: [
       { title: 'Our Mission', href: '/report/our-mission' },
       { title: 'Our Approach', href: '/report/our-approach', },
@@ -15,9 +15,9 @@ export const navigation = [
     ],
   },
   {
-    title: 'Internet Freedom Under Threat',
+    title: 'Threats to Internet Freedom',
     links: [
-      { title: 'Internet Freedom Under Threat', href: '/report/internet-freedom-under-threat' },
+      { title: 'Threats to Internet Freedom', href: '/report/threats-to-internet-freedom' },
     ],
   },
   {

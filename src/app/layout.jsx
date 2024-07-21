@@ -23,10 +23,10 @@ const montserrat = localFont({
 export const metadata = {
   title: {
     template: '%s - Report',
-    default: 'Open Tech Fund - Annual Report 2021',
+    default: 'Open Tech Fund - Annual Report 2022',
   },
   description:
-    'This report covers the activities supported by Open Technology Fund (OTF), with a small number of exceptions for highly sensitive projects, from March 2022 through December 2022 with FY2021 funds.',
+    'This report covers the activities supported by Open Technology Fund (OTF), with a small number of exceptions for highly sensitive projects, from January 2023 through December 2023 with fiscal year (FY) 2022 funds.',
 }
 
 export default function RootLayout({ children }) {

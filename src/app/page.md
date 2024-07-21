@@ -2,7 +2,7 @@
 title: Getting started
 ---
 
-This report covers the activities supported by Open Technology Fund (OTF), with a small number of exceptions for highly sensitive projects, from March 2022 through December 2022 with FY2021 funds {% .lead %}
+This report covers the activities supported by Open Technology Fund (OTF), with a small number of exceptions for highly sensitive projects, from January 2023 through December 2023 with fiscal year (FY) 2022 funds. {% .lead %}
 
 {% quick-links %}
 
