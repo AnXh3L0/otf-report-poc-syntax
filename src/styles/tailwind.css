@@ -14,18 +14,21 @@ article h2 {
 }
 
 article h6 {
-  @apply text-sm;
-  font-family: "Inter" !important;
+  @apply text-sm font-sans !important;
 }
 
-h5:target {
+article h2 + p strong {
+  @apply text-sky-600 font-bold text-lg !important;
+}
+
+h6:target {
   padding: .5rem 1rem;
 }
 
-h5:target {
+h6:target {
   background-color: theme('colors.slate.100');
 }
 
-.dark h5:target {
+.dark h6:target {
   background-color: theme('colors.slate.700');
 }
