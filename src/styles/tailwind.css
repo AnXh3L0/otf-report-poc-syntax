@@ -9,6 +9,10 @@
   }
 }
 
+article h2 {
+  @apply font-bold mb-2 !important;
+}
+
 h5:target {
   padding: .5rem 1rem;
 }

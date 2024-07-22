@@ -26,7 +26,7 @@ export function Hero() {
               This report covers the activities supported by Open Technology Fund (OTF), with a small number of exceptions for highly sensitive projects, from January 2023 through December 2023 with fiscal year (FY) 2022 funds.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="https://public.opentech.fund/documents/OTF_Annual_Report_FY_2021_20_Jul_23_2.pdf" target="_blank" rel="noopener noreferrer">Download PDF</Button>
+                <Button href="https://www.opentech.fund/wp-content/uploads/2024/07/OTF-Annual-Report-FY-2022.pdf" target="_blank" rel="noopener noreferrer">Download PDF</Button>
                 <Button href="https://www.opentech.fund/results/annual-reports/" target="_blank" rel="noopener noreferrer" variant="secondary">
                   All reports
                 </Button>
