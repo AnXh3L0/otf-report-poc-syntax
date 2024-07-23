@@ -2,7 +2,7 @@ export const navigation = [
   {
     title: 'About this report',
     links: [
-      { title: 'Getting started', href: '/' },
+      { title: 'Introduction', href: '/' },
     ],
   },
   {
