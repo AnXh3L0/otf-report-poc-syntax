@@ -9,7 +9,7 @@
   }
 }
 
-article h2 {
+article h2, article h3 {
   @apply font-bold mb-2 !important;
 }
 
@@ -18,6 +18,10 @@ article h6 {
 }
 
 article h2 + p strong {
+  @apply text-sky-600 font-bold text-lg !important;
+}
+
+article h3 + p strong {
   @apply text-sky-600 font-bold text-lg !important;
 }
 
