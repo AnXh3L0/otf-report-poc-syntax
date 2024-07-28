@@ -6,7 +6,7 @@ This report covers the activities supported by Open Technology Fund (OTF), with 
 
 {% quick-links %}
 
-{% quick-link title="About OTF" icon="installation" href="/report/our-mission" description="OTF works to advance internet freedom in repressive environments." /%}
+{% quick-link title="About OTF" icon="otf" href="/report/our-mission" description="OTF works to advance internet freedom in repressive environments." /%}
 
 {% quick-link title="Threats to Internet Freedom" icon="presets" href="/report/threats-to-internet-freedom" description="Authoritarian control of the internet is on the rise." /%}
 

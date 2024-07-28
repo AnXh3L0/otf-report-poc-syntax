@@ -30,9 +30,9 @@ h6:target {
 }
 
 h6:target {
-  background-color: theme('colors.slate.100');
+  background-color: theme('colors.sky.100');
 }
 
 .dark h6:target {
-  background-color: theme('colors.slate.700');
+  background-color: theme('colors.sky.950');
 }
