@@ -1,0 +1,56 @@
+.wrapper {
+  --color-bg: #ffffff;
+  --color-text: #404041;
+  --color-primary: #25aae1;
+  --color-zero-tick: #404041;
+  --color-major-tick: #71717a;
+  --color-minor-tick: #d4d4d8;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.svg {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.minorTick {
+  stroke: var(--color-minor-tick);
+  stroke-dasharray: 6;
+}
+
+.majorTick {
+  stroke: var(--color-major-tick);
+}
+
+.zeroTick {
+  stroke: var(--color-zero-tick);
+  stroke-width: 1.5px;
+}
+
+.tickText {
+  fill: var(--color-text);
+}
+
+.linePath {
+  stroke: var(--color-primary);
+  stroke-width: 3px;
+  fill: none;
+}
+
+.dataCircle {
+  fill: var(--color-primary);
+}
+
+.dataText {
+  fill: var(--color-primary);
+  stroke: var(--color-bg);
+  stroke-width: 4px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  paint-order: stroke;
+}

@@ -2,6 +2,8 @@ import { useId } from 'react'
 import clsx from 'clsx'
 
 import { OTFIcon } from '@/components/icons/OTFIcon'
+import { ThreatIcon } from '@/components/icons/ThreatIcon'
+import { StarIcon } from '@/components/icons/StarIcon'
 import { InstallationIcon } from '@/components/icons/InstallationIcon'
 import { LightbulbIcon } from '@/components/icons/LightbulbIcon'
 import { PluginsIcon } from '@/components/icons/PluginsIcon'
@@ -11,6 +13,8 @@ import { WarningIcon } from '@/components/icons/WarningIcon'
 
 const icons = {
   otf: OTFIcon,
+  threat: ThreatIcon,
+  star: StarIcon,
   installation: InstallationIcon,
   presets: PresetsIcon,
   plugins: PluginsIcon,
