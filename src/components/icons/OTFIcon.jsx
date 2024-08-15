@@ -16,7 +16,6 @@ export function OTFIcon({ id, color }) {
         />
       </defs>
       <LightMode>
-        <circle cx={12} cy={12} r={12} fill={`url(#${id}-gradient)`} />
         <rect y="6.79468" width="6" height="16.3646" fillOpacity={0.5}
           className="fill-[var(--icon-background)] stroke-[color:var(--icon-foreground)]"
           strokeWidth={1.5}

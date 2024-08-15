@@ -19,7 +19,7 @@ export function Hero() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
           <div className="relative z-10 md:text-center lg:text-left">
             <div className="relative">
-              <p className="inline bg-gradient-to-r from-indigo-400 via-sky-700 to-indigo-400 bg-clip-text font-display text-5xl tracking-tight text-transparent">
+              <p className="inline font-display text-5xl tracking-tight dark:text-gray-200 text-blue-700">
                 Open Technology Fund Annual Report 2022
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
