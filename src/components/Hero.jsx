@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Button } from '@/components/Button'
-import heroImage from '@/images/hero.svg'
+import heroImageLight from '@/images/hero-light.svg'
+import heroImageDark from '@/images/hero-dark.svg'
 
 function TrafficLightsIcon(props) {
   return (
@@ -14,12 +15,12 @@ function TrafficLightsIcon(props) {
 
 export function Hero() {
   return (
-    <div className="overflow-hidden bg-slate-100 dark:bg-slate-900 dark:-mb-32 dark:mt-[-4.75rem] dark:pb-32 dark:pt-[4.75rem]">
+    <div className="overflow-hidden bg-slate-100 dark:-mb-32 dark:mt-[-4.75rem] dark:bg-slate-900 dark:pb-32 dark:pt-[4.75rem]">
       <div className="py-16 sm:px-2 lg:relative lg:px-0 lg:py-20">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
           <div className="relative z-10 md:text-center lg:text-left">
             <div className="relative">
-              <p className="inline font-display text-5xl tracking-tight dark:text-gray-200 text-blue-700">
+              <p className="inline font-display text-5xl tracking-tight text-blue-700 dark:text-gray-200">
                 Open Technology Fund Annual Report 2022
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
@@ -35,8 +36,18 @@ export function Hero() {
           </div>
           <div className="relative lg:static xl:pl-10">
             <div className="relative">
+            <Image
+                className="hidden dark:block"
+                src={heroImageDark}
+                alt=""
+                width={600}
+                height={600}
+                unoptimized
+                priority
+              />
               <Image
-                src={heroImage}
+                className="block dark:hidden"
+                src={heroImageLight}
                 alt=""
                 width={600}
                 height={600}
