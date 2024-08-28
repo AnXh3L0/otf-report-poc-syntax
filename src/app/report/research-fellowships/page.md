@@ -6,6 +6,8 @@ nextjs:
     description: #
 ---
 
+![Information Controls Fellowship Program icon](/images/icfp-icon.svg)
+
 The Information Controls Fellowship Program (ICFP) supports researchers examining how governments in countries, regions, or areas of OTF’s core focus are restricting the free flow of information, cutting access to the open internet, and implementing censorship mechanisms.
 
 ---

@@ -6,6 +6,8 @@ nextjs:
     description: #
 ---
 
+![Rapid Response Fund icon](/images/rrf-icon.svg)
+
 The Rapid Response Fund provides emergency support to independent media outlets, journalists, and human rights defenders facing digital attacks. Support obtained through this fund helps these individuals and groups stay safe in repressive environments, regain online access, mitigate future attacks, and combat sudden censorship events.
 
 ---

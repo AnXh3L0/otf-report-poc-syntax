@@ -6,6 +6,8 @@ nextjs:
     description: #
 ---
 
+![Surge and Sustain Fund icon](/images/ssf-icon.svg)
+
 As internet censorship continues to escalate globally, more users than ever before are relying on circumvention technologies to counter censorship and access the free and open internet. In response to this increasing demand, OTF established the Surge and Sustain Fund to provide leading circumvention tools with the resources they need to sustain their current users and respond to growing demands for their tools.
 
 ---

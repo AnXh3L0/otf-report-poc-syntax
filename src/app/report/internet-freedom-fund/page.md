@@ -6,6 +6,8 @@ nextjs:
     description: #
 ---
 
+![Internet Freedom Fund icon](/images/iff-icon.svg)
+
 The Internet Freedom Fund (IFF) is the principal mechanism through which OTF supports innovative global internet freedom projects. IFF projects primarily focus on technology development implementation, but also include applied research and digital security efforts. OTF continuously solicits IFF project proposals through a fully open, transparent, and competitive process.
 
 ---
