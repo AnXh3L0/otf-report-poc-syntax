@@ -1,5 +1,5 @@
-import { Callout } from '@/components/Callout'
-import { QuickLink, QuickLinks } from '@/components/QuickLinks'
+import { Callout } from '@/components/Callout';
+import { QuickLink, QuickLinks } from '@/components/QuickLinks';
 
 const tags = {
   callout: {
@@ -42,6 +42,22 @@ const tags = {
       href: { type: String },
     },
   },
-}
+  image: {
+    selfClosing: true,
+    attributes: {
+      src: { type: String, required: true },
+      alt: { type: String, required: false },
+      className: { type: String, required: false, default: '' },
+    },
+    render: ({ src, alt = '', className = '' }) => (
+      // Use Next.js's Image component or a standard img tag
+      <img
+        src={src}
+        alt={alt}
+        className={`${className}`}
+      />
+    ),
+  },
+};
 
-export default tags
+export default tags;

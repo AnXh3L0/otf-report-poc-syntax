@@ -6,6 +6,10 @@ nextjs:
     description: #
 ---
 
+{% image src="/images/illustration-threats_to_internet_freedom.svg" alt="Threats to Internet Freedom" className="block dark:hidden" /%}
+
+{% image src="/images/illustration-threats_to_internet_freedom-dark.svg" alt="Threats to Internet Freedom" className="hidden dark:block" /%}
+
 Global internet freedom declined for the 13th consecutive year and attacks on free expression grew more common around the world during the time period covered by OTF’s FY 2022 appropriations.[^1](#1) While continuing to rely on conventional and blunt forms of censorship, authoritarian regimes also harnessed artificial intelligence (AI) technology to increase the scale, speed, and efficiency of digital repression. Internet shutdowns additionally proved pervasive and prosecution of free online expression became increasingly common.
 
 In a troubling development, authoritarians are also increasingly learning censorship and surveillance techniques from one another — and nowhere is this more apparent than in China and Russia. Documents leaked in 2023 reveal growing cooperation between the two governments on how to best stifle dissent and control information.[^2](#2) Russian officials are keen to learn from their Chinese counterparts how to disrupt circumvention tools like VPNs, crack encrypted internet traffic, and regulate messaging platforms.[^3](#3) In exchange, Chinese officials seek expertise on regulating media and managing popular dissent.[^4](#4)

@@ -6,7 +6,9 @@ nextjs:
     description: #
 ---
 
-![OTF logo](otf-logo.webp)
+{% image src="/images/otf-logo.svg" alt="OTF Logo" className="block dark:hidden" /%}
+
+{% image src="/images/otf-logo-white.svg" alt="OTF Logo" className="hidden dark:block" /%}
 
 OTF is a congressionally authorized, independent nonprofit organization that advances internet freedom in repressive environments by supporting the applied research, development, implementation, and maintenance of technologies that provide secure and uncensored access to the free and open internet. For over ten years, OTF has supported pioneering open source internet freedom technologies that counter authoritarian information controls and enhance digital security and privacy so that all people can exercise their fundamental human rights online. Today, over two billion people around the world use OTF-supported technology on a daily basis, and more than two-thirds of all mobile phone users have OTF-incubated technology on their devices.
 
