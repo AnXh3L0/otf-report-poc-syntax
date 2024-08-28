@@ -16,80 +16,20 @@ export function OTFIcon({ id, color }) {
         />
       </defs>
       <LightMode>
-        <rect y="6.79468" width="6" height="16.3646" fillOpacity={0.5}
-          className="fill-[var(--icon-background)] stroke-[color:var(--icon-foreground)]"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <rect x="6" y="0.794678" width="6" height="6" fillOpacity={0.5}
-          className="fill-[var(--icon-background)] stroke-[color:var(--icon-foreground)]"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <rect x="6" y="23.1593" width="6" height="6" fillOpacity={0.5}
-          className="fill-[var(--icon-background)] stroke-[color:var(--icon-foreground)]"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <rect x="32" y="23.1593" width="6" height="16.3646" transform="rotate(-180 32 23.1593)" fillOpacity={0.5}
-          className="fill-[var(--icon-background)] stroke-[color:var(--icon-foreground)]"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <rect x="26" y="29.1593" width="6" height="6" transform="rotate(-180 26 29.1593)" fillOpacity={0.5}
-          className="fill-[var(--icon-background)] stroke-[color:var(--icon-foreground)]"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <rect x="26" y="6.79468" width="6" height="6" transform="rotate(-180 26 6.79468)" fillOpacity={0.5}
-          className="fill-[var(--icon-background)] stroke-[color:var(--icon-foreground)]"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
+        <rect y="6.79468" width="6" height="16.3646" className="fill-[var(--icon-foreground)]" />
+        <rect x="6" y="0.794678" width="6" height="6" className="fill-[var(--icon-foreground)]" />
+        <rect x="6" y="23.1593" width="6" height="6" className="fill-[var(--icon-foreground)]" />
+        <rect x="32" y="23.1593" width="6" height="16.3646" transform="rotate(-180 32 23.1593)" className="fill-[var(--icon-foreground)]" />
+        <rect x="26" y="29.1593" width="6" height="6" transform="rotate(-180 26 29.1593)" className="fill-[var(--icon-foreground)]" />
+        <rect x="26" y="6.79468" width="6" height="6" transform="rotate(-180 26 6.79468)" className="fill-[var(--icon-foreground)]" />
       </LightMode>
       <DarkMode>
-        <rect y="6.79468" width="6" height="16.3646" fill={`url(#${id}-gradient-dark)`}
-          stroke={`url(#${id}-gradient-dark)`}
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <rect x="6" y="0.794678" width="6" height="6" fill={`url(#${id}-gradient-dark)`}
-          stroke={`url(#${id}-gradient-dark)`}
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <rect x="6" y="23.1593" width="6" height="6" fill={`url(#${id}-gradient-dark)`}
-          stroke={`url(#${id}-gradient-dark)`}
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <rect x="32" y="23.1593" width="6" height="16.3646" transform="rotate(-180 32 23.1593)" fill={`url(#${id}-gradient-dark)`}
-          stroke={`url(#${id}-gradient-dark)`}
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <rect x="26" y="29.1593" width="6" height="6" transform="rotate(-180 26 29.1593)" fill={`url(#${id}-gradient-dark)`}
-          stroke={`url(#${id}-gradient-dark)`}
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <rect x="26" y="6.79468" width="6" height="6" transform="rotate(-180 26 6.79468)" fill={`url(#${id}-gradient-dark)`}
-          stroke={`url(#${id}-gradient-dark)`}
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
+        <rect y="6.79468" width="6" height="16.3646" fill={`url(#${id}-gradient-dark)`} />
+        <rect x="6" y="0.794678" width="6" height="6" fill={`url(#${id}-gradient-dark)`} />
+        <rect x="6" y="23.1593" width="6" height="6" fill={`url(#${id}-gradient-dark)`} />
+        <rect x="32" y="23.1593" width="6" height="16.3646" transform="rotate(-180 32 23.1593)" fill={`url(#${id}-gradient-dark)`} />
+        <rect x="26" y="29.1593" width="6" height="6" transform="rotate(-180 26 29.1593)" fill={`url(#${id}-gradient-dark)`} />
+        <rect x="26" y="6.79468" width="6" height="6" transform="rotate(-180 26 6.79468)" fill={`url(#${id}-gradient-dark)`} />
       </DarkMode>
     </>
   )

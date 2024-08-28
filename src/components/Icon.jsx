@@ -4,6 +4,7 @@ import clsx from 'clsx'
 import { OTFIcon } from '@/components/icons/OTFIcon'
 import { ThreatIcon } from '@/components/icons/ThreatIcon'
 import { StarIcon } from '@/components/icons/StarIcon'
+import { SupportedIcon } from '@/components/icons/SupportedIcon'
 import { InstallationIcon } from '@/components/icons/InstallationIcon'
 import { LightbulbIcon } from '@/components/icons/LightbulbIcon'
 import { PluginsIcon } from '@/components/icons/PluginsIcon'
@@ -15,6 +16,7 @@ const icons = {
   otf: OTFIcon,
   threat: ThreatIcon,
   star: StarIcon,
+  supported: SupportedIcon,
   installation: InstallationIcon,
   presets: PresetsIcon,
   plugins: PluginsIcon,
@@ -24,9 +26,7 @@ const icons = {
 }
 
 const iconStyles = {
-  blue: '[--icon-foreground:theme(colors.slate.900)] [--icon-background:theme(colors.white)]',
-  amber:
-    '[--icon-foreground:theme(colors.amber.900)] [--icon-background:theme(colors.amber.100)]',
+  blue: '[--icon-foreground:theme(colors.blue.700)] [--icon-background:theme(colors.white)]',
 }
 
 export function Icon({ icon, color = 'blue', className, ...props }) {
@@ -48,13 +48,7 @@ export function Icon({ icon, color = 'blue', className, ...props }) {
 
 const gradients = {
   blue: [
-    { stopColor: '#0EA5E9' },
-    { stopColor: '#22D3EE', offset: '.527' },
-    { stopColor: '#818CF8', offset: 1 },
-  ],
-  amber: [
-    { stopColor: '#FDE68A', offset: '.08' },
-    { stopColor: '#F59E0B', offset: '.837' },
+    { stopColor: '#C6DAF6' },
   ],
 }
 

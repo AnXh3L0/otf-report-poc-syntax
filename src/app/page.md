@@ -12,6 +12,6 @@ This report covers the activities supported by Open Technology Fund (OTF), with 
 
 {% quick-link title="Project Highlights" icon="star" href="/report/project-highlights" description="OTF funded over 35 innovative projects to combat censorship and repressive surveillance." /%}
 
-{% quick-link title="Supported Projects" icon="theming" href="/report/internet-freedom-fund" description="" /%}
+{% quick-link title="Supported Projects" icon="supported" href="/report/internet-freedom-fund" description="" /%}
 
 {% /quick-links %}

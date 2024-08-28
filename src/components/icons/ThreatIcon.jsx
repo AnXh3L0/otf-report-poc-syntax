@@ -17,12 +17,8 @@ export function ThreatIcon({ id, color }) {
       </defs>
       <LightMode>
         <g clipPath="url(#clip0_2221_5782)">
-        <path d="M28.5103 2.97705H0.510254V30.9771H28.5103V2.97705ZM16.0103 8.97705V10.4771V17.4771V18.9771H13.0103V17.4771V10.4771V8.97705H16.0103ZM13.0103 20.9771H16.0103V23.9771H13.0103V20.9771Z" fillOpacity={0.5}
-          className="fill-[var(--icon-background)] stroke-[color:var(--icon-foreground)]"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
+        <path d="M28.5103 2.97705H0.510254V30.9771H28.5103V2.97705ZM16.0103 8.97705V10.4771V17.4771V18.9771H13.0103V17.4771V10.4771V8.97705H16.0103ZM13.0103 20.9771H16.0103V23.9771H13.0103V20.9771Z"
+          className="fill-[var(--icon-foreground)]" />
         </g>
         <defs>
         <clipPath id="clip0_2221_5782">
@@ -33,10 +29,6 @@ export function ThreatIcon({ id, color }) {
       <DarkMode>
       <g clipPath="url(#clip0_2221_5782)">
         <path d="M28.5103 2.97705H0.510254V30.9771H28.5103V2.97705ZM16.0103 8.97705V10.4771V17.4771V18.9771H13.0103V17.4771V10.4771V8.97705H16.0103ZM13.0103 20.9771H16.0103V23.9771H13.0103V20.9771Z" fill={`url(#${id}-gradient-dark)`}
-          stroke={`url(#${id}-gradient-dark)`}
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
         />
         </g>
         <defs>
